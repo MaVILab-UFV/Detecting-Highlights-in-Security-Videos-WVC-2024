@@ -28,6 +28,20 @@ If you find this code useful for your research, please cite the paper:
 }
 ```
 
+## Getting Started
+  
+You can install the project dependencies using conda, we provide an `environment.yml` file with the frozen dependencies. First, create an environment named `env` with all the necessary dependencies:
+
+```bash
+conda env create -f environment.yml -n env
+```
+
+Then, activate the environment:
+
+```bash
+conda activate env
+```
+
 ## Step by Step
 For an input video, we perform four types of analysis to detect sounds and visual events that may indicate a relevant moment. Each analysis generates a JSON file with the processed data. Below, we explain how each step works and how to execute it.
 
