@@ -79,12 +79,12 @@ python audio_transcription.py --input-video <path_to_input_video> --output-folde
 
 ### Audio Events Detection
 
-Download our fine tuned weights [here](). Execute `audioset.py`
+Download our fine tuned weights [here](https://drive.google.com/file/d/159eWqnMbDnsmxzS8V98B83BHKVCmzKCE/view?usp=sharing). Execute `audioset.py`
 
 ```bash
 python audioset.py --input-video <path_to_input_video> --model_path <path_to_model> --output-folder <path_to_output_folder>
 ```
-<ul> <li><code>--input-video</code>: Specify <code>&lt;path_to_input_video&gt;</code> as the path to the input video you want to analyze.</li> <li><code>--model_path</code>: Provide <code>&lt;path_to_model&gt;</code> as the path to the model weights. You can download the model <a href="https://github.com/ultralytics/ultralytics?tab=readme-ov-file#models">here</a>.</li> <li><code>--output-folder</code>: Set <code>&lt;path_to_output_folder&gt;</code> as the directory where results should be saved. If unspecified, results are saved in the project directory by default.</li> </ul>
+<ul> <li><code>--input-video</code>: Specify <code>&lt;path_to_input_video&gt;</code> as the path to the input video you want to analyze.</li> <li><code>--model_path</code>: Provide <code>&lt;path_to_model&gt;</code> as the path to the model weights. You can download the model <a href="https://drive.google.com/file/d/159eWqnMbDnsmxzS8V98B83BHKVCmzKCE/view?usp=sharing">here</a>.</li> <li><code>--output-folder</code>: Set <code>&lt;path_to_output_folder&gt;</code> as the directory where results should be saved. If unspecified, results are saved in the project directory by default.</li> </ul>
 
 
 ## Integrate Results
